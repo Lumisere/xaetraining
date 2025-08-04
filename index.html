@@ -1,0 +1,6 @@
+<button onclick="trigger()">Notify</button>
+<script>
+  async function trigger() {
+    await fetch('/api/trigger', { method: 'POST' });
+  }
+</script>
